@@ -1,38 +1,74 @@
 .App {
+  font-family: "Candara";
+}
+
+.header-container {
+  padding: 8px;
+  font-family: "Candara";
+}
+
+.jumbotron-fluid {
+  margin: 0 auto;
+  padding: 0;
+  font-family: "Candara";
+}
+.table {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333333;
+  font-family: "Candara";
+}
+
+.display {
+  text-align: center;
+  font-size: xx-large;
+  margin-top: 20px;
+  border: 2px solid #fc6767;
+  border-radius: 30px;
+  background: white;
+}
+
+.employee-image {
+  border: solid #fc6767 2px;
+  border-radius: 9px;
+}
+
+.employee-name {
+  font-weight: bold;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-group {
+  text-align: center;
+  font-family: "Candara";
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-control {
+  display: flex;
+  justify-content: "center";
+  align-items: "center";
+  width: 500px;
+}
+
+.form-container {
+  margin: 0 auto;
+  align-self: center;
+  border: 2px solid #394359;
+  background-color: #d88a83;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.results {
+  border: 2px solid black;
+  background: white;
 }
